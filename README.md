@@ -15,6 +15,8 @@ Anyone interested can look over this pandas read_csv [documentation](https://pan
 import pandas as pd
 # import local csv file
 df=pd.read_csv("file_name.csv")
+
+
 #import csv file from an URL
 import requests
 from io import StringIO
@@ -56,10 +58,32 @@ pd.read_csv("file_name.txt", sep="\t")
 import pandas as pd
 df=pd.read_json=("file_name.json")
 df.head()
+
 #import json data from url
 pd.read_json('https://www.niloy.json')
 ```
 anyone interested can look over the [documentation](https://pandas.pydata.org/docs/reference/api/pandas.read_json.html)
+
+## SQL format
+```python
+import pandas as pd 
+import sqlalchemy
+engine = sqlalchemy.create_engine('mysql+pymysql://root:pass@123@localhost:3306/ecommerce')
+df = pd.read_sql_table('table_name',engine)
+df
+#for query we use
+query
+# Q1: Find the division/district/year/month wise total_sale_price joining fact table and respective dimension table
+
+query='''
+
+SELECT * from table_name
+  
+     '''
+
+df = pd.read_sql_query(query,engine)
+df
+```
 
 
 
