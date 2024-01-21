@@ -27,3 +27,12 @@ pd.read_csv(data)
 
 
 ```
+## TSV(Tab Separated Value)
+```python
+pd.read_csv('movie_titles_metadata.tsv',sep='\t') 
+#if we dont have column and  want to give column name then we can use 
+pd.read_csv('movie_titles_metadata.tsv',sep='\t',names=['sno','name','release_year','rating','votes','genres'])
+
+```
+I upload a python code to handle csv data. you can look over this code [here]()
+
