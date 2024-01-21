@@ -45,5 +45,10 @@ pd.read_excel("file_name.xls",sheet_name="sheet_name_2")
 
 ```
 Anyone interested can go through pandas excel [documentation](https://pandas.pydata.org/docs/reference/api/pandas.read_excel.html)
+## Text Files(.txt)
+ Its look like tsv file so use `read_csv` 
+ ```python
+pd.read_csv("file_name.txt", sep="\t")
+```
 
 
