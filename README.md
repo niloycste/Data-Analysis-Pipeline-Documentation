@@ -35,4 +35,14 @@ pd.read_csv('movie_titles_metadata.tsv',sep='\t',names=['sno','name','release_ye
 
 ```
 I upload a python code to handle CSV data on various scenarios. you can look over this code [here](working-with-csv.ipynb)
+## Excel Format
+```python
+import pandas as pd
+pd.read_excel("file_name.xls")
+#if we have two sheets and want to access the second sheet then
+pd.read_excel("file_name.xls",sheet_name="sheet_name_2")
+
+
+```
+
 
