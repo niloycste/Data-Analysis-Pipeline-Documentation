@@ -71,10 +71,9 @@ import sqlalchemy
 engine = sqlalchemy.create_engine('mysql+pymysql://root:pass@123@localhost:3306/ecommerce')
 df = pd.read_sql_table('table_name',engine)
 df
-#for query we use
-query
-# Q1: Find the division/district/year/month wise total_sale_price joining fact table and respective dimension table
 
+
+#for query we use
 query='''
 
 SELECT * from table_name
