@@ -111,6 +111,27 @@ df.to_sql("file_name",con=engine,if_exists='append')
 ```
 ## Working With Scrapping
 web scraping typically involves extracting information from websites. Python offers several libraries that are commonly used for web scraping, such as BeautifulSoup,selenium for parsing HTML, and requests for making HTTP requests. anyone interested to see the scraping using selenium can see this [code](Firefox-Scraper.py) 
+## Working with API
+```python
+import pandas as pd
+import requests
+response = requests.get('https://api.themoviedb.org/3/movie/top_rated?api_key=8265bd1679663a7ea12ac168da84d2e8&language=en-US&page=1') # get api url
+
+temp_df = pd.DataFrame(response.json()['results'])[['id','title','overview','release_date','popularity','vote_average','vote_count']]
+pd.DataFrame(response.json()['results'])
+
+# to extract specific information from api
+df=pd.DataFrame() #Empty dataframe
+for i in range(1,429):
+    response = requests.get('https://api.themoviedb.org/3/movie/top_rated?api_key=8265bd1679663a7ea12ac168da84d2e8&language=en-US&page={}'.format(i))
+    temp_df = pd.DataFrame(response.json()['results'])[['id','title','overview','release_date','popularity','vote_average','vote_count']]
+    df = df.append(temp_df,ignore_index=True)
+
+#save the data into csv
+df.to_csv('movies.csv')
+
+
+```
 
 
 
