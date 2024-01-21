@@ -34,5 +34,5 @@ pd.read_csv('movie_titles_metadata.tsv',sep='\t')
 pd.read_csv('movie_titles_metadata.tsv',sep='\t',names=['sno','name','release_year','rating','votes','genres'])
 
 ```
-I upload a python code to handle csv data. you can look over this code [here]()
+I upload a python code to handle csv data. you can look over this code [here](working-with-csv.ipynb)
 
