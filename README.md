@@ -109,9 +109,9 @@ df.to_json("file_name.json")
 ```python
 df.to_sql("file_name",con=engine,if_exists='append')
 ```
-## Working With Scrapping
-web scraping typically involves extracting information from websites. Python offers several libraries that are commonly used for web scraping, such as BeautifulSoup,selenium for parsing HTML, and requests for making HTTP requests. anyone interested to see the scraping using selenium can see this [code](Firefox-Scraper.py) 
+
 ## Working with API
+Working with APIs (Application Programming Interfaces) involves making requests to web servers to retrieve or send data. Python provides the requests library, which is commonly used for interacting with APIs.
 ```python
 import pandas as pd
 import requests
@@ -132,6 +132,8 @@ df.to_csv('movies.csv')
 
 
 ```
+## Working With Scrapping
+web scraping typically involves extracting information from websites.If the company doesn't provide us with API, we will use web scrapping. Python offers several libraries that are commonly used for web scraping, such as BeautifulSoup,selenium for parsing HTML, and requests for making HTTP requests. Anyone interested to see the scraping using selenium can see this [code](Firefox-Scraper.py) 
 
 
 
