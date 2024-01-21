@@ -8,6 +8,7 @@ In data analysis we need to follow 5 steps
 - Make ppt, dashboard,story telling and show it to the stake holder.
 
 Here we will go through the data gathering concept.Sometimes we need to gather data from APIs, web scraping, databases etc. and we may have data in different formats such as CSV, JSON, HTML, and Excel. Here, we will learn how to import and export data in different formats.
+### Import Data
 ## CSV(Comma Separated Value) 
 Anyone interested can look over this pandas read_csv [documentation](https://pandas.pydata.org/docs/reference/api/pandas.read_csv.html)
 ```python
@@ -50,5 +51,15 @@ Anyone interested can go through pandas excel [documentation](https://pandas.pyd
  ```python
 pd.read_csv("file_name.txt", sep="\t")
 ```
+## JSON Format
+```python
+import pandas as pd
+df=pd.read_json=("file_name.json")
+df.head()
+#import json data from url
+pd.read_json('https://www.niloy.json')
+```
+anyone interested can look over the [documentation](https://pandas.pydata.org/docs/reference/api/pandas.read_json.html)
+
 
 
