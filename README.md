@@ -83,7 +83,34 @@ SELECT * from table_name
 df = pd.read_sql_query(query,engine)
 df
 ```
-### Export the data
+### Export/save the data
+**CSV**
+```python
+df.to_csv("new_file.csv",index=False)
+```
+**Excel**
+```python
+df.to_excel("new_file.xlsx")
+#if we have multiple sheet then we use `ExcelWriter`
+  with pd.ExcelWriter('output.xlsx') as writer:  
+     temp_df.to_excel(writer, sheet_name='Sheet_name_1')
+     temp_df2.to_excel(writer, sheet_name='Sheet_name_2')
+```
+
+**HTML**
+```python
+df.to_html("file_name.html")
+```
+**Json**
+```python
+df.to_json("file_name.json")
+```
+**SQL**
+```python
+df.to_sql("file_name",con=engine,if_exists='append')
+```
+
+
 
 
 
