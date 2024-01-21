@@ -11,6 +11,10 @@ Here we will go through the data gathering concept.Sometimes we need to gather d
 ## CSV(Comma Separated Value) 
 Anyone interested can look over this pandas read_csv [documentation](https://pandas.pydata.org/docs/reference/api/pandas.read_csv.html)
 ```python
-import pandas as pd 
+import pandas as pd
+# import local csv file
+df=pd.read_csv("file_name.csv")
+#import csv file from an URL
+
 
 ```
