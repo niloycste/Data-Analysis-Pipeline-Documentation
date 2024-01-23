@@ -136,7 +136,7 @@ df.to_csv('movies.csv')
 ## Working With Scrapping
 web scraping typically involves extracting information from websites.If the company doesn't provide us with API, we will use web scrapping. Python offers several libraries that are commonly used for web scraping, such as BeautifulSoup,selenium for parsing HTML, and requests for making HTTP requests. Anyone interested to see the scraping using selenium can see this [code](Firefox-Scraper.py) 
 
-# Data Assessing & Cleaning
+# Data Accessing & Cleaning
 In this step, the data is to be understood more deeply. Before implementing methods to clean it, you will need to have a better idea of what the data is about.<br/>
 There are 2 kinds of unclean data.
 
