@@ -1,5 +1,6 @@
-# Data-Gathering-Technique-for-Data-Analysis
+# Data-Pipeline-Technique-for-Data-Analysis
 
+## Data Gathering
 In data analysis we need to follow 5 steps 
 - Asking Question to the stakeholder based on their desire output
 - Data Wrangling means `gathering data`,`assessing data` and `cleaning data`
