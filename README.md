@@ -153,6 +153,17 @@ Messy data, also known as untidy data. Untidy data has structural issues.Tidy da
 - Each observation forms a row
 - Each observational unit forms a table
 
+<br/>
+**Automatic Assessment:**
+- head and tail
+- sample
+- info
+- isnull
+- duplicated
+- describe
+<br/>
+
+
 **Data Quality Dimensions:**
 
 - Completeness -> is data missing?
