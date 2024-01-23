@@ -138,15 +138,18 @@ web scraping typically involves extracting information from websites.If the comp
 
 # Data Assessing & Cleaning
 In this step, the data is to be understood more deeply. Before implementing methods to clean it, you will need to have a better idea of what the data is about.
-There are 2 kinds of unclean data
+There are 2 kinds of unclean data.<br/>
+
 **Dirty Data:** 
-Dirty data, also known as low quality data. Low quality data has content issues.
+Dirty data, also known as low quality data. Low quality data has content issues.<br/>
 - Duplicated data
 - Missing Data
 - Corrupt Data
 - Inaccurate Data
+<br/>
 **Messy Data:**
-Messy data, also known as untidy data. Untidy data has structural issues.Tidy data has the following properties:
+  
+Messy data, also known as untidy data. Untidy data has structural issues.Tidy data has the following properties:<br/>
 - Each variable forms a column
 - Each observation forms a row
 - Each observational unit forms a table
