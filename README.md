@@ -153,6 +153,8 @@ Messy data, also known as untidy data. Untidy data has structural issues.Tidy da
 - Each observation forms a row
 - Each observational unit forms a table
 
+To get more details go through this [python notebook]()
+
 
 
 
