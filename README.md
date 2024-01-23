@@ -137,6 +137,21 @@ df.to_csv('movies.csv')
 web scraping typically involves extracting information from websites.If the company doesn't provide us with API, we will use web scrapping. Python offers several libraries that are commonly used for web scraping, such as BeautifulSoup,selenium for parsing HTML, and requests for making HTTP requests. Anyone interested to see the scraping using selenium can see this [code](Firefox-Scraper.py) 
 
 # Data Assessing & Cleaning
+In this step, the data is to be understood more deeply. Before implementing methods to clean it, you will need to have a better idea of what the data is about.
+There are 2 kinds of unclean data
+**Dirty Data:** 
+Dirty data, also known as low quality data. Low quality data has content issues.
+- Duplicated data
+- Missing Data
+- Corrupt Data
+- Inaccurate Data
+**Messy Data:**
+Messy data, also known as untidy data. Untidy data has structural issues.Tidy data has the following properties:
+- Each variable forms a column
+- Each observation forms a row
+- Each observational unit forms a table
+
+
 
 
 
