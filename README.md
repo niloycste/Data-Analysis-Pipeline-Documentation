@@ -183,6 +183,8 @@ Messy data, also known as untidy data. Untidy data has structural issues.Tidy da
 
 To get more details go through this [python notebook](data_assessing_and_cleaning.ipynb)
 
+# Exploratory Data Analysis(EDA)
+
 
 
 
