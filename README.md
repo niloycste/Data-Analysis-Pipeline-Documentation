@@ -153,6 +153,21 @@ Messy data, also known as untidy data. Untidy data has structural issues.Tidy da
 - Each observation forms a row
 - Each observational unit forms a table
 
+**Data Quality Dimensions:**
+
+- Completeness -> is data missing?
+- Validity -> is data invalid -> negative height -> duplicate patient id
+- Accuracy -> data is valid but not accurate -> weight -> 1kg
+- Consistency -> both valid and accurate but written differently -> New Youk and NY
+**Data Cleaning Order:**
+  
+- Quality -> Completeness
+- Tidiness
+- Quality -> Validity
+- Quality -> Accuracy
+- Quality -> Consistency
+
+
 To get more details go through this [python notebook](data_assessing_and_cleaning.ipynb)
 
 
