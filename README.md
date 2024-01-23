@@ -159,6 +159,8 @@ Messy data, also known as untidy data. Untidy data has structural issues.Tidy da
 - Validity -> is data invalid -> negative height -> duplicate patient id
 - Accuracy -> data is valid but not accurate -> weight -> 1kg
 - Consistency -> both valid and accurate but written differently -> New Youk and NY
+<br/>
+
 **Data Cleaning Order:**
   
 - Quality -> Completeness
@@ -166,7 +168,7 @@ Messy data, also known as untidy data. Untidy data has structural issues.Tidy da
 - Quality -> Validity
 - Quality -> Accuracy
 - Quality -> Consistency
-
+<br/>
 
 To get more details go through this [python notebook](data_assessing_and_cleaning.ipynb)
 
